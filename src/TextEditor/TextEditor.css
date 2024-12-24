@@ -1,0 +1,21 @@
+#textEditorContainer {
+    background-color: grey;
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    flex-direction: column;
+}
+
+#textEditorTitle {
+    color: white;
+    font-family: 'Arial';
+    font-size: 20px;
+    text-align: center;
+}
+
+#editor {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 300px;
+    resize: vertical;
+}

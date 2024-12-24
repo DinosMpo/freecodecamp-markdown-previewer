@@ -1,0 +1,23 @@
+#previewEditorContainer {
+    background-color: grey;
+}
+
+#preview {
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    max-width: 800px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#previewEditorTitle {
+    color: white;
+    font-family: 'Arial';
+    font-size: 20px;
+    text-align: center;
+}
+
+#preview img {
+    display: inline-block;
+    width: 100%;
+}
